@@ -32,7 +32,7 @@ def load_data():
 
     # TODO: replace with your real values
     SHEET_ID = "1054802323"  # from the Google Sheets URL
-    TAB_NAME = "All Products"        # must exactly match the tab name
+    TAB_NAME = "Socks Base"        # must exactly match the tab name
 
     st.write("📄 Trying to load sheet:", SHEET_ID, "Tab:", TAB_NAME)
 
@@ -125,3 +125,4 @@ st.download_button(
     file_name="Products_View.xlsx",
     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
 )
+
